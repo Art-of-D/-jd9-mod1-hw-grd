@@ -3,8 +3,8 @@ package org.example;
 import java.util.Objects;
 
 public class Person {
-    String name;
-    String lastName;
+    private String name;
+    private String lastName;
 
     public Person(String name, String lastName) {
         this.name = name;
